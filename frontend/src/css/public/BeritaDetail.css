@@ -1,0 +1,26 @@
+/* Untuk Gambar */
+.bg-informasi {
+  background: center center no-repeat;
+  background-size: cover;
+}
+
+/* Untuk Tulisan */
+/* CSS dalam file terpisah atau dalam tag <style> jika diperlukan */
+@media (max-width: 768px) {
+  .card-text {
+    font-size: 14px; /* Ubah ukuran font ketika layar kurang dari 768px */
+  }
+}
+
+/* Beranda Untuk Pesan */
+@media (max-width: 768px) {
+  .centered-content div {
+    font-size: 14px; /* Ubah ukuran teks pesan sesuai kebutuhan */
+  }
+}
+
+/* Beranda Untuk img */
+.centered-content img {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Menghindari distorsi gambar */
+}

@@ -1,0 +1,12 @@
+.logo-container {
+  flex: 1; /* Bagian logo mengambil 1 bagian dari flex container */
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-container {
+  flex: 3; /* Bagian konten mengambil 3 bagian dari flex container */
+}

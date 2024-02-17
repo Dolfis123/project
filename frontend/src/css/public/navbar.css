@@ -1,0 +1,31 @@
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff;
+  /* Warna teks awal */
+  color: black;
+  /* Transisi warna untuk efek halus */
+  transition: color 0.3s ease;
+}
+
+/* .fixed-navbar:hover { */
+/* Warna teks saat dihover */
+/* color: #91c8e4;
+} */
+/* 
+.fixed-navbar { */
+/* Gaya CSS untuk navbar saat difiksasi */
+/* Misalnya: */
+/* background-color: #ffffff;
+  color: black; */
+/* } */
+
+.normal-navbar {
+  /* Gaya CSS untuk navbar saat tidak difiksasi */
+  /* Misalnya: */
+  background-color: #91c8e4;
+  color: #000000;
+}

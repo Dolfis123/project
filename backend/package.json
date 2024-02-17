@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "expresss": "^0.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "moment-timezone": "^0.5.45",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.2",
+    "npm-run-all": "^4.1.5",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0",
+    "react-modal": "^3.16.1",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "name": "1backend2",
+  "version": "1.0.0",
+  "description": "web lurah",
+  "main": "server.js",
+  "author": ""
+}

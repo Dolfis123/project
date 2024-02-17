@@ -1,0 +1,70 @@
+.visi-misi-container {
+  margin-bottom: 20px;
+}
+
+.visi-title,
+.misi-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3f2e3e;
+  margin-bottom: 10px;
+}
+
+.visi-item,
+.misi-item {
+  font-size: 16px;
+  text-align: justify;
+  color: #272829;
+}
+
+.visi-item::before,
+.misi-item::before {
+  content: "•";
+  margin-right: 5px;
+}
+.sejarah-item {
+  text-align: center;
+}
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* tambahkan margin atau padding sesuai kebutuhan */
+  margin-top: 20px;
+  /* lainnya */
+}
+
+.animasi {
+  opacity: 0; /* Mulai dengan opacity 0 */
+  animation: fadeIn 1s ease-in-out 0.5s forwards; /* Delay 0.5s, lalu animasi masuk selama 1 detik */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Akhiri dengan opacity 1 */
+  }
+}
+/* Animasi masuk dengan delay */
+.image-fade-in {
+  opacity: 0; /* Mulai dengan opacity 0 */
+  animation: fadeIn 3s ease-in-out 0.5s forwards; /* Delay 0.5s, lalu animasi masuk selama 1 detik */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Akhiri dengan opacity 1 */
+  }
+}
+
+.pesan-animasi {
+  opacity: 0; /* Mulai dengan opacity 0 */
+  animation: fadeIn 2s ease-in-out 0.5s forwards; /* Delay 0.5s, lalu animasi masuk selama 1 detik */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Akhiri dengan opacity 1 */
+  }
+}

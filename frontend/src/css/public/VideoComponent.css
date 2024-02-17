@@ -1,0 +1,29 @@
+/* VideoComponent.css */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Sesuaikan nilai ini sesuai kebutuhan */
+  background-color: black; /* Opsional: Atur warna latar belakang */
+}
+
+.responsive-video {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/*  Jenis - Huruf sejarah dan visi misi */
+.jenis-huruf {
+  font-family: Poppins, sans-serif;
+}
+
+/* Ukuran Huruf sejarah dna visi misi*/
+.ukuran-huruf {
+  font-size: 1rem;
+}
+
+.card-text {
+  line-height: 1.1; /* Sesuaikan dengan tingkat spasi yang Anda inginkan */
+}

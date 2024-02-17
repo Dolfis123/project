@@ -1,0 +1,225 @@
+POST http://localhost:3040/sejarah
+Content-Type: application/json
+
+{
+    "isi": "papua merdeka "
+}
+
+###
+GET http://localhost:3040/sejarah
+
+###
+GET http://localhost:3040/sejarah/1
+
+###
+DELETE http://localhost:3040/hapus-surat-domisili/1
+
+###
+GET http://localhost:3040/lihat-surat-menunggu
+
+###
+GET http://localhost:3040/lihat-surat-domisili/029acbdbd261ab32663a721d4b4a098b659ab679b26d7d86c58de183932cd638
+
+###
+GET http://localhost:3040/lihat-surat-domisili/029acbdbd261ab32663a721d4b4a098b659ab679b26d7d86c58de183932cd638
+
+###
+GET http://localhost:3040/lihat-surat-skck/20
+
+###
+GET http://localhost:3040/lihat-nomor-surat-domisili/923907
+
+###
+PUT http://localhost:3040/api/sejarah/1
+Content-Type: application/json
+
+{
+    "isi": "west papua merdeka"
+}
+
+###
+PUT http://localhost:3040/update-all-domisili/37
+
+Content-Type: application/json
+
+{
+  "nama": "John Doe",
+  "tempat_lahir": "Jakarta",
+  "ttl": "1990-01-01", 
+  "jk": "Laki-laki",
+  "agama": "Islam",
+  "pekerjaan": "Developer",
+  "alamat": "Jl. Contoh No. 123",
+  "rt_rw": "001/002",
+  "ktp": "1234567890123456",
+  "no_telepon": 1234567890,
+  "email": "john.doe@example.com",
+  "keperluan": "Pindah domisili"
+}
+
+###
+PUT http://localhost:3040/update-nomor-email-domisil/3
+
+Content-Type: application/json
+
+{
+  "no_telepon": 1234567890,
+  "email": "john.doe@example.com",
+  "keperluan": "Pindah domisili"
+}
+
+###
+POST http://localhost:3040/buat-surat-domisili
+Content-Type: application/json
+
+{
+  "nama": "John Doe",
+  "ttl": "1990-01-01",
+  "jk": "Male",
+  "agama": "Islam",
+  "pekerjaan": "PNS",
+  "alamat": "Jl. Contoh No. 123",
+  "rt_rw": "001/002",
+  "ktp": "1234567890"
+}
+
+###
+PUT http://localhost:3040/update-nomor-email-domisil/8
+Content-Type: application/json
+
+{
+ "no_telepon": "4444444",
+ "email": "kdolfis@gmail.com",
+ "keperluan": "belajar"
+}
+
+###
+PUT http://localhost:3040/update-nomor-email/37
+Content-Type: application/json
+
+{
+    "no_telepon": "09272727",
+    "email": "kdolfis@gmail.com",
+    "keperluan": "Dengan menambahkan elemen <div> tersebut dan memberikan styling border, Anda dapat menciptakan garis hitam yang mengelilingi konten dari Bukti Pendaftaran Layanan Online hingga Persyaratan. Sesuaikan ukuran dan tata letak border sesuai"
+}
+
+###
+POST http://localhost:3040/visi-misi
+Content-Type: application/json
+
+{
+    "visi": "amban bagus",
+    "misi": "amban amban amban"
+}
+
+###
+GET http://localhost:3040/visi-misi
+
+###
+GET http://localhost:3040/api/visi-misi/1
+
+###
+PUT http://localhost:3040/api/visi-misi/1
+Content-Type: application/json
+
+{
+    "visi": "indonesia binatang",
+    "misi": "tpnpb pahlawan"
+
+}
+
+###
+POST http://localhost:3040/regis
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "admin"
+}
+
+###
+POST http://localhost:3040/login
+
+###
+GET http://localhost:3040/pegawai
+
+###
+POST http://localhost:30440/addpegawai
+Content-Type: application/json
+
+{
+    "jabatan": "Wakil Lurah",
+    "nama": "Amos",
+    "nip": "088080808",
+    "image": ""
+}
+
+###
+PUT http://localhost:3040/update/14
+Content-Type: application/json
+
+{
+    "jabatan": "Wakil Lurah",
+    "nama": "david",
+    "nip": "0880808"
+}
+
+###
+GET http://localhost:3040/getbyid/15
+
+###
+POST http://localhost:3040/buat-surat-skck
+Content-Type: application/json
+
+{
+  "nik": "1239999",
+  "nama": "John Doe",
+  "jenis_kelamin": "Laki-laki",
+  "tempat_tanggal_lahir": "Jakarta, 1 Januari 1990",
+  "agama": "Islam",
+  "status_perkawinan": "Belum Kawin",
+  "kewarganegaraan": "WNI",
+  "pekerjaan": "Pegawai Swasta",
+  "alamat": "Jl. Raya No. 123, Jakarta"
+}
+
+###
+GET http://localhost:3040/ucapan/1
+
+###
+POST http://localhost:3040/tambah-ucapan
+Content-Type: application/json
+
+ {
+    "message": "ucapan",
+    "image_url": "1234"
+ }
+
+###
+PUT http://localhost:3040/edit-ucapan/1
+Content-Type: application/json
+
+ {
+    "pesan": "ucapan1234"
+ }
+
+###
+POST http://localhost:3040/ucapan
+Content-Type: application/json
+
+{
+    "pesan": "Wakil Lurah",
+    "image": ""
+}
+
+###
+GET http://localhost:3040/ucapan/1
+
+###
+GET http://localhost:3040/struktur-organisasi
+
+
+
+
+
+

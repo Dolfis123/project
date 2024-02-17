@@ -1,0 +1,4 @@
+/* Bagian pop up background-color */
+.custom-backdrop {
+  background-color: rgba(0, 0, 0, 0.1); /* Ubah nilai alpha di sini */
+}

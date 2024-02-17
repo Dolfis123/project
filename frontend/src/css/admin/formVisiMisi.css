@@ -1,0 +1,9 @@
+.text-area-container {
+  width: 65%;
+  height: 280px;
+  white-space: pre-wrap;
+  font-family: "Arial", sans-serif; /* Ganti dengan font yang sesuai*/
+  font-size: 16px; /* Ganti dengan ukuran font yang sesuai*/
+  line-height: 1.6; /* Sesuaikan dengan spasi antar baris yang diinginkan*/
+  /* Atur padding jika diperlukan*/
+}
